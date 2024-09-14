@@ -6,13 +6,11 @@ public class Secao {
 	private static final double PRECO = 50.00;
 	private Assento assentos;
 
-
 	public Secao(String nomeFilme, String horario) {
 		this.nomeFilme = nomeFilme;
 		this.horario = horario;
 		this.assentos = new Assento();
 	}
-
 
 	public boolean venda(int fila, int lugar) {
 		if (assentos.isDisponivel(fila, lugar)) {

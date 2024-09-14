@@ -6,7 +6,6 @@ import cinema.inout.InOut;
 public class Cinema {
 	private Secao[] secoes = new Secao[5];
 
-
 	public static void main(String[] args) {
 		Cinema cinema = new Cinema();
 		cinema.menu();
